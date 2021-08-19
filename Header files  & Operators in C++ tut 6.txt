@@ -1,0 +1,54 @@
+// Header files & operators 
+
+#include<iostream>  
+// There are two types of header files
+// 1. system header files: it comes with the compiler 
+// 2. user defined header files: it is written by the programmer  
+// #include "this.h" --> this will produce an error if this.h is no
+// present in the current directory 
+
+using namespace std;
+int main(){
+    int a=4, b=5;
+    cout<<"operators in c++:"<<endl;
+    cout<<"following are the types of operators in c++:"<<endl;
+
+    // Arithmetic Operators --> used for common mathematical Operations 
+
+    cout<<"The value of a + b is "<<a+b<<endl;
+    cout<<"The value of a - b is "<<a-b<<endl;
+    cout<<"The value of a * b is "<<a*b<<endl;
+    cout<<"The value of a / b is "<<a/b<<endl;
+    cout<<"The value of a % b is "<<a%b<<endl;
+    cout<<"The value of a ++ is "<<a++<<endl;
+    cout<<"The value of a -- is "<<a--<<endl;
+    cout<<"The value of ++a is "<<++a<<endl;
+    cout<<"The value of --a is "<<--a<<endl;
+    cout<<endl;
+    
+    // Assignment Operators --> used to assign values to variables
+    // int a =3, b=9;
+    // char d='d';
+
+    // Comparison Operators --> used to compare two values 
+    cout<<"following are the example of Comparison operators in c++:"<<endl;
+    cout<<"The value of a == b is "<<(a==b)<<endl;
+    cout<<"The value of a != b is "<<(a!=b)<<endl;
+    cout<<"The value of a >= b is "<<(a>=b)<<endl;
+    cout<<"The value of a <= b is "<<(a<=b)<<endl;
+    cout<<"The value of a < b is "<<(a<b)<<endl;
+    cout<<"The value of a > b is "<<(a>b)<<endl;
+
+    // Logical Operators --> used to determine the logic between variables or values
+    cout<<"following are the example of Logical operators in c++:"<<endl;
+    cout<<"The value of this Logical and operator((a==b) && (a<b)) is:"<<((a==b) && (a<b))
+    <<endl;
+    cout<<"The value of this Logical or operator((a==b) || (a<b)) is:"<<((a==b) || (a<b))
+    <<endl;
+    cout<<"The value of this Logical not operator(!(a==b) is:"<<(!(a==b))
+    <<endl;
+        
+    return 0;  
+}
+
+ 

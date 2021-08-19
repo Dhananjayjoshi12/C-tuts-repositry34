@@ -1,0 +1,50 @@
+#include<iostream>
+
+using namespace std;
+int glo = 6;
+void sum(){
+    int a;
+    cout<< glo;
+}
+
+int main(){
+    int glo=9;
+    glo=78;
+    // int a= 14;
+    // int b= 15;
+    int a=14, b=15;
+    float p=3;
+    char c ='d';
+    bool is_true = true;
+    sum();
+    cout<<glo<< is_true;
+    // cout<<"This is tutorial 4. \nHere the value of a is "<<a<<".\nThe value 
+    // of b is "<< b;
+    // cout<<"\nThe value of pi is: "<<pi; 
+    // cout<<"\nThe value of c is: "<<c; 
+
+    return 0;
+} 
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     int a; //declaration
+//     a=12; //initialisation
+
+//     cout<<"size of int"<<sizeof(a)<<endl;
+
+//     float b; 
+//     cout<<"size of float"<<sizeof(b)<<endl;
+
+//     char c;
+//     cout<<"size of char"<<sizeof(c)<<endl;
+
+//     bool d;
+//     cout<<"size of int"<<sizeof(d)<<endl;
+
+//     return 0;
+// }
